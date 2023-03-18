@@ -1,0 +1,19 @@
+{
+  "name": "e2e_udemy_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature --require-module ts-node/register --require test.setup.ts --require step-definitions/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@types/node": "^18.15.3",
+    "playwright": "^1.31.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}

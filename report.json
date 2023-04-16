@@ -1,0 +1,174 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "a-sample-feature-test-for-end-to-end-testing;verify-the-header",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the header",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 799825625
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1786042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go to http://info.cern.ch/",
+            "match": {
+              "location": "step-definitions/first-website.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2314928292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the h1 header equals http://info.cern.ch - home of the first website",
+            "match": {
+              "location": "step-definitions/first-website.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2209278208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69184957
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "a-sample-feature-test-for-end-to-end-testing;verify-the-link-to-the-www-project",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify the link to the WWW project",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 533829334
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4901374
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8622332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to http://info.cern.ch/",
+            "match": {
+              "location": "step-definitions/first-website.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2285514584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click Browse the first website",
+            "match": {
+              "location": "step-definitions/first-website.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2626503624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the url is http://info.cern.ch/hypertext/WWW/TheProject.html",
+            "match": {
+              "location": "step-definitions/first-website.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2060657791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the title is The World Wide Web project",
+            "match": {
+              "location": "step-definitions/first-website.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2156161124
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66685583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@special",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "a-sample-feature-test-for-end-to-end-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "A sample feature test for end to end testing",
+    "tags": [],
+    "uri": "features/first-website.feature"
+  }
+]

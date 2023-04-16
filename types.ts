@@ -4,4 +4,6 @@ import { BrowserContext, Page } from "playwright";
 export interface OurWorld extends CucumberWorld {
   context: BrowserContext;
   page: Page;
+  numcallsBeforeHook: number;
+  numcallsBeforeAllHook: number;
 }
